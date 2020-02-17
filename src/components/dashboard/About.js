@@ -6,7 +6,7 @@ const About = () => {
             <p> </p>
             <p> </p>
             <p>ABOUT US</p>
-            <p>We're a book club. Play with us. </p>
+            <p>We're a book club. Read with us. </p>
         </div>
     )
 }

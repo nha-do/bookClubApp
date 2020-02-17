@@ -1,1 +1,4 @@
 https://ipenywis.com/tutorials/Intro-to-React-Router-for-Beginners-%28Multiple-Page-Apps%29#404-not-found-page
+
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
+

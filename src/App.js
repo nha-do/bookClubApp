@@ -6,15 +6,21 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import Navbar from './components/layout/Navbar'
 import Dashboard from './components/dashboard/Dashboard'
+import BookDetails from './components/books/Bookdetails'
+import Suggestbook from './components/books/Suggestbook'
+import BookList from './components/books/Booklist'
 
 class App extends Component {
   render() {
     return (
       <Router>
-        <div classname="App">
+        <div className="App">
           <Navbar />
           <Switch>
-            <Route path='/' component={Dashboard} />
+            <Route exact path='/' component={Dashboard} />
+            <Route path='/book/:id' component={BookDetails} />
+            <Route path='/suggestbook' component={Suggestbook} />
+            <Route path='/booklist' component={BookList} />
           </Switch>
         </div>
       </Router>

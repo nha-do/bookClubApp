@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom"
 import SuggestBook from './SuggestBook'
+import BookList from '.././books/Booklist'
+
 
 const Navbar = () => {
     return(
@@ -8,6 +10,7 @@ const Navbar = () => {
             <div className="container">
                 <Link to='/' className="brand-logo">BookClub</Link>
                 <SuggestBook />
+                <BookList />
             </div>
         </nav>
     )
